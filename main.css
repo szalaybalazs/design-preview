@@ -1,0 +1,38 @@
+html {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: #202020;
+}
+html body {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-right: 17px;
+  overflow-y: scroll;
+  box-sizing: content-box;
+}
+html body header {
+  padding: 16px;
+  position: fixed;
+  z-index: 52;
+}
+html body #imgContainer {
+  margin: auto;
+  overflow: hidden;
+}
+html body #imgContainer #container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-right: 17px;
+  overflow-y: scroll;
+  box-sizing: content-box;
+}
+html body img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
